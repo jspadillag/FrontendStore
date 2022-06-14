@@ -137,17 +137,23 @@ justify-content: center;
     width: 100%
 }
 
-
-
 .producto__information {
 
 }
 
 .producto__nombre {
-    
+    font-size: 4rem;
 }
 
 .producto__precio {
-    
+    font-size:2.8rem;
+    color: var(--secundario);
 }
 
+.producto__nombre,
+.producto__precio {
+    font-family: var(--fuentePrincipal);
+    margin: 1rem 0;
+    text-align: center;
+    line-height: 1.2
+}
